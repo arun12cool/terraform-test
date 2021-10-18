@@ -34,7 +34,6 @@ The tests/defaults/test_defaults.tf file contains a call to the main module with
 
 Here are few sample tests which I had created for testing the feasibilities of Helm, Docker and an AWS Resource.
 
- # Repo's : https://github.build.ge.com/apmm-devops/pelican-smoke-test/tree/terraform-test/terraform-test
 
 # Helm
 
