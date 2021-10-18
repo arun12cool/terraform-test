@@ -103,7 +103,7 @@ wrong value
 
 ─── Failed: defaults.rb-ns3.name (Check the Role Binding for NS - paas) ─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 wrong value
-    got:  "apm/apm-ns-viewer"
+    got:  "am/am-ns-viewer"
     want: "hub/hub-ns-viewer"
 
 ─── Failed: defaults.rb-ns1.name (Check the Role Binding for NS apm) ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
