@@ -1,3 +1,5 @@
+
+/*
 resource "aws_internet_gateway" "gw" {
   vpc_id = "vpc-0dc3c5e0379c9571d"
 
@@ -7,11 +9,10 @@ resource "aws_internet_gateway" "gw" {
 }
 
 
-
+*/
 
 resource "aws_security_group" "allow_tls" {
-  count = 2  
-  name        = "allow_tls"
+  name        = "allow_iiht"
   description = "Allow TLS inbound traffic"
   vpc_id      = "vpc-0dc3c5e0379c9571d"
 
@@ -32,7 +33,7 @@ resource "aws_security_group" "allow_tls" {
   }
 
   tags = {
-    Name = "allow_tls"
+    Name = "allow_iiht"
   }
 }
 
